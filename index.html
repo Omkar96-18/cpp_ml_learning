@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <body>
+        <script src="./regression.js"></script>
+
+        <script>
+  Module.onRuntimeInitialized = () => {
+    const model = new Module.LinearRegression();
+
+    if(model) {
+      console.log("yes")
+    }
+
+    model.fit(6, 2, 36, 10);
+
+    console.log(`the slope is = ${model.slope}`)
+    
+    console.log(`The y intercept is = ${model.intercept}`);
+    console.log(`The model's predictions are  = ${model.predict(3)}`);
+
+    model.delete();
+  };
+</script>
+    </body>
+</html>
