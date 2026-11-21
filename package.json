@@ -1,0 +1,27 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "we will plan our ML library in the README file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omkar96-18/cpp_ml_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omkar96-18/cpp_ml_learning/issues"
+  },
+  "homepage": "https://github.com/Omkar96-18/cpp_ml_learning#readme",
+  "dependencies": {
+    "node-addon-api": "^8.9.2"
+  },
+  "devDependencies": {
+    "node-gyp": "^12.4.0"
+  }
+}

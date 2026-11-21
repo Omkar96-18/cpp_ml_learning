@@ -1,8 +1,32 @@
-# dependency
-
+# Dependencies & SDKs
 emsdk/
 node_modules/
 
-#files
+# Build & compiled artifacts
+build/
+*.wasm
+*.node
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.pdb
 
-regression.wasm
+# Logs & caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# Environment & OS / Editor files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
